@@ -1,0 +1,19 @@
+name: Invitation
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  automate_invite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invite on label
+        uses: vj-abigo/invite-on-label@v1.2
+        with:
+          organization: CeruleanCodersComm
+          label: invite me to the organisation
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          comment: "<h1>Hey there buddy 👋</h1> <br> You have been invited to [CeruleanCodersComm](https://github.com/CeruleanCodersComm)! 🚀 You can either accept it by going to [the organisation page](https://github.com/CeruleanCodersComm) or checking [your primary github email inbox](https://github.com/settings/emails)."
+        env:
+          INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
