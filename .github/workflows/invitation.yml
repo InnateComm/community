@@ -14,6 +14,6 @@ jobs:
           organization: CeruleanCodersComm
           label: invite me to the organisation
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          comment: "<h1>Hey there buddy 👋</h1> <br> You have been invited to [CeruleanCodersComm](https://github.com/CeruleanCodersComm)! 🚀 You can either accept it by going to [the organisation page](https://github.com/CeruleanCodersComm) or checking [your primary github email inbox](https://github.com/settings/emails)."
+          comment: '<h1>Hey there buddy 👋</h1> <br> You have been invited to <a href="https://github.com/CeruleanCodersComm">CeruleanCodersComm</a>! 🚀 You can either accept it by going to <a href="https://github.com/CeruleanCodersComm">the organisation page</a> or checking <a href="https://github.com/settings/emails">your primary github email inbox</a>.'
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
