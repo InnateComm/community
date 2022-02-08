@@ -11,7 +11,7 @@ jobs:
       - name: Invite on label
         uses: vj-abigo/invite-on-label@v1.2
         with:
-          organization: CeruleanCodersComm
+          organization: InnateComm
           label: invite me to the organisation
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           comment: '<h1>Hey there buddy 👋</h1> <br> You have been invited to <a href="https://github.com/CeruleanCodersComm">CeruleanCodersComm</a>! 🚀 You can either accept it by going to <a href="https://github.com/CeruleanCodersComm">the organisation page</a> or checking <a href="https://github.com/settings/emails">your primary github email inbox</a>.'
