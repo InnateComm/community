@@ -107,7 +107,7 @@
 
 ### How do I join the Cerulean Coders MLH Guild?
 
-- Join the MLH Discord Server: [discord.gg/mlh](https://discord.com/invite/mlh)
+- Join the [MLH Discord Server](https://discord.com/invite/mlh)
 
 - Go to [discord.mlh.io](https://discord.mlh.io/)
   <details>
